@@ -2,6 +2,8 @@ import React, { FunctionComponent } from "react";
 import clsx from "clsx";
 import { NoteType } from "../../domain/note";
 
+import "./index.css";
+
 interface KeyProps {
   type: NoteType;
   label: string;

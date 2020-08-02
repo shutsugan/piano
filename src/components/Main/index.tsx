@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from "react";
 
-import { Keyboard } from "../Keyboard";
+import { Keyboard } from "../KeyBoard";
 import { NoAudioMessage } from "../NoAudioMessage";
 import { useAudioContext } from "../AudioContextProvider";
 

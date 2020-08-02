@@ -11,7 +11,7 @@ export const Keyboard: FunctionComponent = () => (
     {notes.map(({ midi, type, index, octave }) => {
       const label = selectKey(octave as OctavesRange, index);
 
-      return <Key key={midi} type={type} lable={label} />;
+      return <Key key={midi} type={type} label={label} />;
     })}
   </div>
 );
