@@ -15,6 +15,7 @@
   margin-right: -1px;
   z-index: 1;
 }
+
 .key--sharp,
 .key--flat {
   width: var(--black-key-width);
